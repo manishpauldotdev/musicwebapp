@@ -22,3 +22,10 @@ flutter:
   uses-material-design: true
   assets:
     - assets/audio/
+  
+  fonts:
+    - family: InterVariable
+      fonts:
+        - asset: fonts/InterVariable.ttf
+        - asset: fonts/InterVariable-Italic.ttf
+          style: italic  
