@@ -76,13 +76,7 @@ class _HomePageState extends State<HomePage> {
                           backgroundColor: Colors.purple,
                           foregroundColor: Colors.white,
                         ),
-                        onPressed: () {
-                          if (!hasStartedPlaying) {
-                            startAudio();
-                          } else {
-                            togglePlayingStatus();
-                          }
-                        },
+                        onPressed: () {},
                         child: const Text('Back to Plinko'),
                       ),
                       const SizedBox(height: 16),
