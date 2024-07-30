@@ -82,7 +82,14 @@ class _HomePageState extends State<HomePage> {
                                 topLeft: Radius.circular(50),
                                 bottomLeft: Radius.circular(50),
                               ),
-                              color: Colors.black45,
+                              color: Colors.black87,
+                            ),
+                            child: const Center(
+                              child: Icon(
+                                Icons.skip_previous_rounded,
+                                color: Colors.white,
+                                size: 30,
+                              ),
                             ),
                           ),
                           const SizedBox(width: 16),
@@ -90,7 +97,14 @@ class _HomePageState extends State<HomePage> {
                             height: 56,
                             width: 100,
                             decoration: const BoxDecoration(
-                              color: Colors.black45,
+                              color: Colors.purple,
+                            ),
+                            child: const Center(
+                              child: Icon(
+                                Icons.play_arrow_rounded,
+                                color: Colors.white,
+                                size: 30,
+                              ),
                             ),
                           ),
                           const SizedBox(width: 16),
@@ -102,7 +116,14 @@ class _HomePageState extends State<HomePage> {
                                 topRight: Radius.circular(50),
                                 bottomRight: Radius.circular(50),
                               ),
-                              color: Colors.black45,
+                              color: Colors.black87,
+                            ),
+                            child: const Center(
+                              child: Icon(
+                                Icons.skip_next_rounded,
+                                color: Colors.white,
+                                size: 30,
+                              ),
                             ),
                           ),
                         ],
